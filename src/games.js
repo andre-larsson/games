@@ -1,5 +1,6 @@
 import menhirCover from './assets/menhir-cover.webp'
 import brinelightCover from './assets/brinelight-cover.webp'
+import perMyLastRequestCover from './assets/per-my-last-request-cover.webp'
 
 // One entry per game, shown in this order. To add a game, put a 16:9 WebP
 // cover (1040×585, under ~100 KB) in src/assets, import it above, and add
@@ -26,5 +27,16 @@ export const games = [
     sourceUrl: 'https://github.com/andre-larsson/brinelight',
     cover: brinelightCover,
     coverAlt: 'A keeper with a lantern on a lighthouse rock, above a great bell sunk in the sea.',
+  },
+  {
+    id: 'per-my-last-request',
+    title: 'Per My Last ReQuest',
+    genre: 'Prompt-writing tactics',
+    pitch:
+      "Write the standing orders for a sellsword who follows them to the letter. A small language model runs in your browser and plays the hero; rewrite the orders until the guild's training trial comes home alive.",
+    playUrl: 'https://a403.space/per-my-last-request/',
+    sourceUrl: 'https://github.com/andre-larsson/per-my-last-request',
+    cover: perMyLastRequestCover,
+    coverAlt: "A scarred sellsword with a sword on one shoulder, chewing a grass stalk and holding a crumpled page of orders at arm's length.",
   },
 ]

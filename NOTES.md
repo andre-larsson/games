@@ -15,6 +15,10 @@ It was made in November 2026, at the same time as the first "final" versions of 
   sister game, *Tipstone*, into one build.
 - **Brinelight** (roguelike deckbuilder). One run is about 11 map stops and 15 to 25 minutes. The central
   mechanic is a Tide gauge that Crests (damage to all enemies) or hits Low Water (Ward).
+- **Per My Last ReQuest** (prompt-writing tactics; added 2026-11-14). The player writes standing orders and a
+  small language model in the browser (WebGPU) plays the hero through four assignments; a Manual sandbox
+  works without a model. Its cover is a 16:9 crop of the hero portrait (`hero-e`, `--top 40`), the only
+  light cover on the page, because the game's art is ink on cream.
 
 Both games are plain static HTML/JS with synthesized audio and generated illustrations. Both are expected
 to keep changing; the hub only needs updating when a game's title, pitch, art or URL changes.
@@ -41,7 +45,8 @@ to keep changing; the hub only needs updating when a game's title, pitch, art or
   for new project pages. The CI workflow uses the same action versions as the root site.
 - One card per game, built from a data array (`src/games.js`). Each card has a cover, title, genre,
   a short pitch, a prominent Play link and a quieter Source link, and the whole card is clickable.
-- Genres: Menhir "Puzzle", Brinelight "Roguelike deckbuilder". Play and source URLs as in `src/games.js`.
+- Genres: Menhir "Puzzle", Brinelight "Roguelike deckbuilder", Per My Last ReQuest "Prompt-writing tactics".
+  Play and source URLs as in `src/games.js`; the newest entry links to `a403.space` directly.
 - Covers come from each game's own art.
 
 ### Provisional taste calls (each can be changed or undone on its own)
